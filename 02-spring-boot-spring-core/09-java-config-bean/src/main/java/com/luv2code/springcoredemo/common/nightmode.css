@@ -1,0 +1,325 @@
+element.style {
+}
+.code-mirror.svelte-1uqohtk {
+    height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+style attribute {
+    --height: 0px;
+}
+style attribute {
+    --height: 0px;
+}
+style attribute {
+    display: contents;
+    --description-font-size: 20px;
+    --description-content: "";
+}
+style attribute {
+    --scrollbar-height: 12px;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    /* -webkit-tap-highlight-color: rgba(0,0,0,0); */
+}
+style attribute {
+    --editor-shrink-max-width: 250px;
+    --editor-shrink-max-height: 125px;
+    --editor-default-max-width: 250px;
+    --editor-default-max-height: 125px;
+}
+:root.night-mode {
+    --font-size: 15px;
+    --border-radius: 5px;
+    --border-radius-medium: 12px;
+    --border-radius-large: 15px;
+    --transition: .18s;
+    --transition-medium: .5s;
+    --transition-slow: 1s;
+    --blur: 20px;
+}
+:root.night-mode {
+    /* color: inherit; */
+    --fg: #fcfcfc;
+    --fg-subtle: #858585;
+    --fg-disabled: #737373;
+    --fg-faint: #545454;
+    --fg-link: #bfdbfe;
+    --canvas: #2c2c2c;
+    --canvas-elevated: #363636;
+    --canvas-inset: #2c2c2c;
+    --canvas-overlay: #2c2c2c;
+    --canvas-code: #252525;
+    --canvas-glass: rgba(54, 54, 54, .4);
+    --border: #202020;
+    --border-subtle: #252525;
+    --border-strong: #020202;
+    --border-focus: #3b82f6;
+    --button-bg: rgb(64.05, 64.05, 64.05);
+    --button-gradient-start: rgb(74.1, 74.1, 74.1);
+    --button-gradient-end: rgb(64.05, 64.05, 64.05);
+    --button-hover-border: #141414;
+    --button-disabled: rgba(69, 69, 69, .5);
+    --button-primary-bg: rgb(38.35, 82.45, 206.65);
+    --button-primary-gradient-start: rgb(46.9, 102.7, 225.1);
+    --button-primary-gradient-end: rgb(38.35, 82.45, 206.65);
+    --button-primary-disabled: rgb(68.35, 132.25, 236.65);
+    --scrollbar-bg: #454545;
+    --scrollbar-bg-hover: #545454;
+    --scrollbar-bg-active: #636363;
+    --shadow: #141414;
+    --shadow-inset: #202020;
+    --shadow-subtle: #363636;
+    --shadow-focus: #6366f1;
+    --accent-card: #93c5fd;
+    --accent-note: #4ade80;
+    --accent-danger: #f87171;
+    --flag-1: #f87171;
+    --flag-2: #fdba74;
+    --flag-3: #86efac;
+    --flag-4: #60a5fa;
+    --flag-5: #f0abfc;
+    --flag-6: #5eead4;
+    --flag-7: #c084fc;
+    --state-new: #93c5fd;
+    --state-learn: #f87171;
+    --state-review: #22c55e;
+    --state-buried: #92400e;
+    --state-suspended: #fef9c3;
+    --state-marked: #a855f7;
+    --highlight-bg: rgba(147, 197, 253, .5);
+    --highlight-fg: white;
+Show All Properties (3 more)
+}
+:root {
+    --canvas: slategrey;
+    --canvas-elevated: black;
+    --border: white;
+    --border-subtle: white;
+    --button-bg: black;
+    --fg: white;
+    --fg-disabled: black;
+    --button-gradient-start: grey;
+    --bs-body-color: white;
+    --button-gradient-end: #ccc;
+}
+[data-bs-theme=dark] {
+    color-scheme: dark;
+    --bs-body-color: #fcfcfc;
+    --bs-body-color-rgb: 252, 252, 252;
+    --bs-body-bg: #2c2c2c;
+    --bs-body-bg-rgb: 44, 44, 44;
+    --bs-emphasis-color: #fff;
+    --bs-emphasis-color-rgb: 255, 255, 255;
+    --bs-secondary-color: rgba(252, 252, 252, .75);
+    --bs-secondary-color-rgb: 252, 252, 252;
+    --bs-secondary-bg: #343a40;
+    --bs-secondary-bg-rgb: 52, 58, 64;
+    --bs-tertiary-color: rgba(252, 252, 252, .5);
+    --bs-tertiary-color-rgb: 252, 252, 252;
+    --bs-tertiary-bg: rgb(42.5, 47.5, 52.5);
+    --bs-tertiary-bg-rgb: 43, 48, 53;
+    --bs-primary-text-emphasis: rgb(109.8, 168, 253.8);
+    --bs-secondary-text-emphasis: rgb(166.8, 172.2, 177);
+    --bs-success-text-emphasis: rgb(117, 183, 152.4);
+    --bs-info-text-emphasis: rgb(109.8, 223.2, 246);
+    --bs-warning-text-emphasis: rgb(255, 217.8, 106.2);
+    --bs-danger-text-emphasis: rgb(234, 133.8, 143.4);
+    --bs-light-text-emphasis: #f8f9fa;
+    --bs-dark-text-emphasis: #dee2e6;
+    --bs-primary-bg-subtle: rgb(2.6, 22, 50.6);
+    --bs-secondary-bg-subtle: rgb(21.6, 23.4, 25);
+    --bs-success-bg-subtle: rgb(5, 27, 16.8);
+    --bs-info-bg-subtle: rgb(2.6, 40.4, 48);
+    --bs-warning-bg-subtle: rgb(51, 38.6, 1.4);
+    --bs-danger-bg-subtle: rgb(44, 10.6, 13.8);
+    --bs-light-bg-subtle: #343a40;
+    --bs-dark-bg-subtle: #1a1d20;
+    --bs-primary-border-subtle: rgb(7.8, 66, 151.8);
+    --bs-secondary-border-subtle: rgb(64.8, 70.2, 75);
+    --bs-success-border-subtle: rgb(15, 81, 50.4);
+    --bs-info-border-subtle: rgb(7.8, 121.2, 144);
+    --bs-warning-border-subtle: rgb(153, 115.8, 4.2);
+    --bs-danger-border-subtle: rgb(132, 31.8, 41.4);
+    --bs-light-border-subtle: #495057;
+    --bs-dark-border-subtle: #343a40;
+    --bs-heading-color: inherit;
+    --bs-link-color: rgb(109.8, 168, 253.8);
+    --bs-link-hover-color: rgb(138.84, 185.4, 254.04);
+    --bs-link-color-rgb: 110, 168, 254;
+    --bs-link-hover-color-rgb: 139, 185, 254;
+    --bs-code-color: rgb(230.4, 132.6, 181.2);
+    --bs-highlight-color: #fcfcfc;
+    --bs-highlight-bg: rgb(102, 77.2, 2.8);
+    --bs-border-color: #495057;
+    --bs-border-color-translucent: rgba(255, 255, 255, .15);
+    --bs-form-valid-color: rgb(117, 183, 152.4);
+Show All Properties (3 more)
+}
+:root, [data-bs-theme=light] {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-primary-text-emphasis: rgb(5.2, 44, 101.2);
+    --bs-secondary-text-emphasis: rgb(43.2, 46.8, 50);
+    --bs-success-text-emphasis: rgb(10, 54, 33.6);
+    --bs-info-text-emphasis: rgb(5.2, 80.8, 96);
+    --bs-warning-text-emphasis: rgb(102, 77.2, 2.8);
+    --bs-danger-text-emphasis: rgb(88, 21.2, 27.6);
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: rgb(206.6, 226, 254.6);
+    --bs-secondary-bg-subtle: rgb(225.6, 227.4, 229);
+    --bs-success-bg-subtle: rgb(209, 231, 220.8);
+Show All Properties (68 more)
+}
+:root {
+    --font-size: 15px;
+    --border-radius: 5px;
+    --border-radius-medium: 12px;
+    --border-radius-large: 15px;
+    --transition: .18s;
+    --transition-medium: .5s;
+    --transition-slow: 1s;
+    --blur: 20px;
+}
+:root {
+    --fg: #020202;
+    --fg-subtle: #737373;
+    --fg-disabled: #858585;
+    --fg-faint: #afafaf;
+    --fg-link: #1d4ed8;
+    --canvas: #f5f5f5;
+    --canvas-elevated: white;
+    --canvas-inset: white;
+    --canvas-overlay: #fcfcfc;
+    --canvas-code: white;
+    --canvas-glass: rgba(255, 255, 255, .4);
+    --border: #c4c4c4;
+    --border-subtle: #e4e4e4;
+    --border-strong: #858585;
+    --border-focus: #3b82f6;
+    --button-bg: #fcfcfc;
+    --button-gradient-start: white;
+    --button-gradient-end: #fcfcfc;
+    --button-hover-border: #999999;
+    --button-disabled: rgba(214, 214, 214, .5);
+    --button-primary-bg: rgb(47.9, 106.8, 236);
+    --button-primary-gradient-start: #3b82f6;
+    --button-primary-gradient-end: rgb(47.9, 106.8, 236);
+    --button-primary-disabled: #93c5fd;
+    --scrollbar-bg: #d6d6d6;
+    --scrollbar-bg-hover: #c4c4c4;
+    --scrollbar-bg-active: #afafaf;
+    --shadow: #c4c4c4;
+    --shadow-inset: #454545;
+    --shadow-subtle: #737373;
+    --shadow-focus: #6366f1;
+    --accent-card: #60a5fa;
+    --accent-note: #22c55e;
+    --accent-danger: #ef4444;
+    --flag-1: #ef4444;
+    --flag-2: #fb923c;
+    --flag-3: #4ade80;
+    --flag-4: #3b82f6;
+    --flag-5: #e879f9;
+    --flag-6: #2dd4bf;
+    --flag-7: #a855f7;
+    --state-new: #3b82f6;
+    --state-learn: #dc2626;
+    --state-review: #16a34a;
+    --state-buried: #f59e0b;
+    --state-suspended: #facc15;
+    --state-marked: #6366f1;
+    --highlight-bg: rgba(37, 99, 235, .5);
+    --highlight-fg: black;
+    --selected-bg: rgba(214, 214, 214, .5);
+Show All Properties (2 more)
+}
+html {
+    font-size: var(--font-size);
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html body:not(.isMac)::-webkit-scrollbar, html body:not(.isMac) *::-webkit-scrollbar {
+    background-color: var(--canvas);
+}
+body:not(.isMac)::-webkit-scrollbar, body:not(.isMac) *::-webkit-scrollbar {
+    background-color: var(--canvas);
+}
+html body:not(.isMac)::-webkit-scrollbar-corner, html body:not(.isMac) *::-webkit-scrollbar-corner {
+    background-color: var(--canvas);
+}
+body:not(.isMac)::-webkit-scrollbar-corner, body:not(.isMac) *::-webkit-scrollbar-corner {
+    background-color: var(--canvas);
+}
+html body:not(.isMac)::-webkit-scrollbar-thumb, html body:not(.isMac) *::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-bg);
+    border-radius: var(--border-radius);
+}
+body:not(.isMac)::-webkit-scrollbar-thumb, body:not(.isMac) *::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-bg);
+    border-radius: var(--border-radius);
+}
+html body:not(.isMac)::-webkit-scrollbar-track, html body:not(.isMac) *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: transparent;
+}
+body:not(.isMac)::-webkit-scrollbar-track, body:not(.isMac) *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: transparent;
+}
