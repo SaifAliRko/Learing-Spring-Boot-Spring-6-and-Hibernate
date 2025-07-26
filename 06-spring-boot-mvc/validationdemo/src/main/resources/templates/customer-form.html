@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Form</title>
+</head>
+<body>
+<i>Customer Form. Asterik(*) means required</i>
+<form  th:action="@{/processForm}" th:object="${customer}" method="post">
+    First Name:
+        <input type="text" id="firstName" th:field="*{firstName}" />
+        <br></br>
+    Last Name:
+        <input type="text" id="lastName" th:field="*{lastName}" />
+        <!-- Add error message if last field is empty-->
+        <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}" style="color:red">
+            Please enter a last name
+        </span>
+        <br></br>
+        Free Passes:
+        <input type="text" id="freePasses" th:field="*{freePasses}" />
+        <!-- Add error message if freePasses field is empty-->
+        <span th:if="${#fields.hasErrors('freePasses')}" th:errors="*{freePasses}" style="color:red">
+            Please enter a valid number of free passes
+        </span>
+        <br></br>
+        <!-- postal code -->
+        <br></br>
+        Postal Code:
+        <input type="text" id="postalCode" th:field="*{postalCode}" />
+        <!-- Add error message if postalCode field is empty-->
+        <span th:if="${#fields.hasErrors('postalCode')}" th:errors="*{postalCode}" style="color:red">
+            Please enter a valid postal code
+        </span>
+
+        <!-- Input field for Course code -->
+        <br></br>
+        Course Code:
+        <input type="text" th:field="*{courseCode}" />
+        <!-- Add error message if courseCode field is empty-->
+        <span th:if="${#fields.hasErrors('courseCode')}" th:errors="*{courseCode}" style="color:red">
+            Please enter a valid course code
+        </span>
+        <br></br>
+
+    <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
